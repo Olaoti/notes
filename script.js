@@ -80,7 +80,7 @@ copycolumn.forEach((col) => {
                 ${inputs[19].value} \n${textsarr[19].value} `*/
         //var valuedint = inputsarr.filter((int)=>{return int.value.length>=2 && int.value!=undefined})
         var valuedtexts = textsarr.filter((text) => {
-          return text.value.length >= 2;
+          return text.value.length >= 1;
         });
         for (i = 0; i < valuedtexts.length; i++) {
           cliptext += `${
